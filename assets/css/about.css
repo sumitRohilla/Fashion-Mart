@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .about-landing {
+        position: relative;
+        margin-top: 6.6rem;
+        width: 100%;
+        height: 400px;
+    }
+    .about-img {
+        height: 400px;
+        width: 100%;
+        background-position: top left;
+        background-size: contain;
+        overflow: hidden;
+    }
+    .about-landing h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 7rem;
+        color: #fff;
+        transform: translate(-50%, -50%);
+    }
+
+
+    /* about company */
+
+    #about-section{
+        background: url('../img/ad7.jpg') no-repeat left;
+        background-size: 45%;
+        background-color: #f1f1f1;
+        overflow: hidden;
+    }
+    
+    .inner-container{
+        width: 55%;
+        float: right;
+        background-color: #fdfdfd;
+        padding: 100px;
+    }
+    
+    .inner-container h1{
+        margin-bottom: 30px;
+        letter-spacing: 1.2;
+        font-size: 6rem;
+        font-weight: 900;
+    }
+    
+    .text{
+        font-size: 1.7rem;
+        color: #545454;
+        line-height: 30px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+    
+    /* .skills{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 13px;
+    } */
+    
+    #about-btn {
+        display: block;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: #000;
+        border: 2px solid #333;
+        cursor: pointer;
+        border-radius: 6px;
+        width: 160px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        margin-top: 30px;
+        transition: all 0.1s ease;
+    }
+    #about-btn:hover {
+        color: #F6F7FA;
+        background-color: #333;
+    }
+    
+    
+    
+    @media screen and (max-width:1200px){
+        .inner-container{
+            padding: 80px;
+        }
+    }
+    
+    @media screen and (max-width:1000px){
+        #about-section{
+            background-size: 100%;
+            padding: 100px 40px;
+        }
+        .inner-container{
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width:600px){
+        #about-section{
+            padding: 0;
+        }
+        .inner-container{
+            padding: 60px;
+            background-color: #f1f1f1;
+        }
+    }
+
+    .work-img {
+        height: 450px;
+        background-image: url('../img/about-banner.jpg');
+        text-align: center;
+    }
+    .work-img h1 {
+        font-size: 3.4rem;
+        letter-spacing: .2rem;
+        padding-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    .work-img p {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .work-img a {
+        display: inline-block;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: #000;
+        border: 2px solid #333;
+        cursor: pointer;
+        border-radius: 6px;
+        width: 160px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        margin-top: 5rem;
+        transition: all 0.1s ease;
+    }
+    .work-img a:hover {
+        color: #F6F7FA;
+        background-color: #333;
+    }
+
+    @media screen and (max-width:900px){
+        .about-landing {
+            height: 200px;
+        }
+        .about-landing h1 {
+            font-size: 3rem;
+        }
+        .about-img {
+            background-position: center right;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 200px;
+        }
+        .inner-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .inner-container h1 {
+            font-size: 2.5rem;
+        }
+        .inner-container p {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        #about-btn {
+            margin-top: 1rem;
+        }
+        .work-img {
+            background-image: none;
+            padding: 1rem;
+        }
+        .work-img h1 {
+            font-size: 2.2rem;
+        }
+        .work-img p {
+            font-size: 1.5rem;
+        }
+    }
