@@ -4,8 +4,8 @@
 
 ## FRONT-END Based Project :
  
-This is an Internship Project and is create using basic FRONT-END languages.\
-• This is a E-commerce Website created will doing internship for The Entrepreneurship Network.
+• This is an Internship Project and is create using basic FRONT-END languages.\
+• This is a E-commerce Website created will doing internship for The Entrepreneurship Network. \
 • This is created using HTML, CSS, JavaScript languages which are the basic.
 
 ## FRONT-END :

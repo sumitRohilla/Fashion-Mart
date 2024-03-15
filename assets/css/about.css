@@ -123,10 +123,14 @@ body {
         letter-spacing: .2rem;
         padding-top: 10rem;
         margin-bottom: 5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
     .work-img p {
         font-size: 2rem;
         margin-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
     .work-img a {
         display: inline-block;
